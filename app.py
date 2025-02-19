@@ -27,20 +27,27 @@ def read_pdf(file: UploadFile):
 # Prompt Templates
 PROMPTS = {
     "resume_analysis": """
-    You are an experienced HR Manager reviewing a resume for a given job description.
-    Please provide an evaluation of whether the candidate is a good fit.
-    Highlight strengths and weaknesses.
+    As a seasoned **HR Manager**, thoroughly evaluate the candidate's resume against the provided **job description**.
+    Provide a **detailed analysis** of the candidate's suitability for the role by highlighting **key strengths**, **potential weaknesses**, and **areas for improvement**.
+    Emphasize how well the candidate’s **experience**, **skills**, and **qualifications** align with the **job requirements**, using **bold formatting** for critical insights.
     """,
+    
     "ats_match": """
-    You are an ATS scanner checking resume compatibility for a job.
-    Give a percentage match, missing keywords, and final thoughts.
+    Act as an advanced **ATS (Applicant Tracking System)** scanner to assess the resume's **compatibility** with the given **job description**.
+    Deliver a **precise percentage match**, identify **missing or underrepresented keywords**, and provide a **detailed analysis** of the resume's **overall alignment** with the job requirements.
+    Include **actionable suggestions** to improve **ATS performance**, ensuring all important points are **bolded** for quick reference.
     """,
+    
     "project_suggestions": """
-    You are a mentor suggesting projects to improve missing skills.
-    Suggest 2 project ideas with data sources, ML models, and deployment steps.
+    Take on the role of a dedicated **mentor** guiding the candidate to bridge **skill gaps** identified in the resume.
+    Propose **2 impactful project ideas**, including **relevant data sources**, **recommended machine learning models**, and a **step-by-step deployment plan**.
+    Provide **detailed insights** into each project, ensuring alignment with **industry trends** and emphasizing **key concepts** in **bold** to enhance clarity.
     """,
+    
     "resume_improvement": """
-    Suggest structural improvements for the resume, including formatting tips and examples.
+    Provide **professional recommendations** to enhance the resume's **structure**, **format**, and **presentation**.
+    Offer **specific formatting tips**, **layout suggestions**, and **examples** of effective resume sections.
+    Share **detailed guidelines** to make the resume **polished**, **ATS-friendly**, and **tailored** for **maximum impact** in the candidate’s **target industry**, with important tips **bolded** for emphasis.
     """
 }
 
