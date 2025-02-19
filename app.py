@@ -40,7 +40,7 @@ PROMPTS = {
     
     "project_suggestions": """
     Take on the role of a dedicated **mentor** guiding the candidate to bridge **skill gaps** identified in the resume.
-    Propose **2 impactful project ideas**, including **relevant data sources**, **recommended machine learning models**, and a **step-by-step deployment plan**.
+    Propose **2 impactful project ideas**, including **relevant data sources** and a **step-by-step deployment plan**.
     Provide **detailed insights** into each project, ensuring alignment with **industry trends** and emphasizing **key concepts** in **bold** to enhance clarity.
     """,
     
