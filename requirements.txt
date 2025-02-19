@@ -2,3 +2,7 @@ gunicorn
 Flask
 flask-cors
 fastapi==0.110.0
+uvicorn==0.27.0
+google-generativeai==0.3.2
+pypdf==3.17.0
+python-multipart==0.0.6
